@@ -1,0 +1,79 @@
+
+body{
+    margin: 0px;
+    font-family: roboto;
+}
+header{
+    height: 90px;
+    width: 100%;
+    box-shadow: 0 .125rem .25rem rgba(black, .075);
+}
+.bloc-left{
+    margin: -30px 30px;
+    display: inline-flex;
+}
+header .text-logo{
+    margin: 65px;
+    margin-left: -30px;
+    color: #f68714;
+    font-size: 14px;
+}
+header .bloc-centre{
+    color: #f68714;
+    margin: -25px 0px 0px -150px;  
+   
+}
+header .bloc-right{
+    display: flex;
+    margin: 5px;
+}
+.bloc-right ul{
+    display: flex;
+    list-style-type: none;
+}
+.bloc-right li{
+    margin: -16px 20px 0px 0px;
+}
+.bloc-right a{
+    text-decoration: none;
+    color: #45210b;
+}
+.bloc-right a:hover{
+    color: #f68714;
+}
+
+
+ .dropdown {
+    position: absolute;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    color: #45210b;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    margin: 20px 0px 0px -50px;
+  }
+.identify p{
+    border: 1px solid #f68714;
+    padding: 5px 20px 5px 20px;
+    border-radius: 8px 8px 8px 8px;
+    margin-top: -20px;
+}
+#map {
+    position: static;
+    height: 530px;
+    margin-top: 45px;
+    
+}
+
